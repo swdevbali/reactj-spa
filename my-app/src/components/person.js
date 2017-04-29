@@ -4,7 +4,7 @@ class Person extends React.Component{
 
     constructor(props){
         super(props)
-        this.state = {marriage: props.marriage == undefined?0:1}
+        this.state = {marriage: props.marriage === undefined?0:1}
         console.log(this.state.marriage)
     }
     
